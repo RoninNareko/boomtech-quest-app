@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.game-board-container {
+  min-width: 540px;
+  min-height: 540px;
+  background: #f3f9fc;
+  border-radius: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game {
   display: flex;
-  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.game-board-content {
+  display: block;
+  color: #3a83b8;
+  margin: 0 auto;
+  padding: 100px;
+  width: 83%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-board {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.game-board-content p {
+  font-size: 15px;
+  display: block;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+}
+.game-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+#game-button {
+  background: #3a83b8;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  border-radius: 8px;
+  width: 143px;
+  height: 52px;
 }

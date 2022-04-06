@@ -24,9 +24,9 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.game-board-content p {
+.game-board-container-item span {
   font-size: 15px;
-  display: block;
+  margin-right: 30px;
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
 }
-#game-button {
+#reverse-button {
   background: #3a83b8;
   font-family: "Roboto";
   font-style: normal;
